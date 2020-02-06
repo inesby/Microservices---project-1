@@ -79,7 +79,7 @@ public class ProductController {
 	  
 
 	  @PostMapping(value = "/Produits")
-	    public ResponseEntity<Void> ajouterProduitpost(@RequestBody Product product) {
+	    public ResponseEntity<Void> ajouterProduitpos(@RequestBody Product product) {
 
 	        Product productAdded =  productDao.save(product);
 
